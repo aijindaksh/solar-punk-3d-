@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solar Punk 3D Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="ui">
+    <div class="panel">
+      <div>Solar Energy: <span id="energy-count">0</span></div>
+      <div>Trees Planted: <span id="tree-count">0</span></div>
+      <div>Pollution: <span id="pollution-level">100%</span></div>
+      <div>Passive Gain: <span id="passive-gain">+0.0/s</span></div>
+    <div>Machine Drain: <span id="machine-drain">-0.0/s</span></div>
+    </div>
+    <div class="hint">WASD to move | Collect glowing energy | SPACE to plant a tree (costs 3 energy)</div>
+  </div>
+
+  <canvas id="game-canvas"></canvas>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
